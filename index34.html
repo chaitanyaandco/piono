@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virtual Piano</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Virtual Piano</h1>
+  <p>Click on the keys to play a note. Tap and hold for a better tune!</p>
+  <div class="piano">
+    <!-- Octave 4 -->
+    <div class="white-key" data-note="C4">C</div>
+    <div class="black-key" data-note="C#4" style="left: 40px;">C#</div>
+    <div class="white-key" data-note="D4">D</div>
+    <div class="black-key" data-note="D#4" style="left: 100px;">D#</div>
+    <div class="white-key" data-note="E4">E</div>
+    <div class="white-key" data-note="F4">F</div>
+    <div class="black-key" data-note="F#4" style="left: 220px;">F#</div>
+    <div class="white-key" data-note="G4">G</div>
+    <div class="black-key" data-note="G#4" style="left: 280px;">G#</div>
+    <div class="white-key" data-note="A4">A</div>
+    <div class="black-key" data-note="A#4" style="left: 340px;">A#</div>
+    <div class="white-key" data-note="B4">B</div>
+    <!-- Repeat for more octaves as needed -->
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.77/Tone.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
